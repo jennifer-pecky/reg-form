@@ -95,7 +95,7 @@ async function register() {
         .then((res) => {
             console.log(res);
         })
-        .then((err) => {
+        .catch((err) => {
             console.error(err);
         });
 }
